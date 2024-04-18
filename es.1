@@ -1,0 +1,7 @@
+public static void invertiColonne(int[][] matrice, int colonna1, int colonna2) {
+    for (int i = 0; i < matrice.length; i++) {
+        int temp = matrice[i][colonna1];
+        matrice[i][colonna1] = matrice[i][colonna2];
+        matrice[i][colonna2] = temp;
+    }
+}
